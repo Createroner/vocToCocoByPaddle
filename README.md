@@ -10,3 +10,10 @@
   2、ImageSets/Main 里面主要包含了各种训练、验证、测试图片名称的txt文件
   
   3、JPEGImages存放了所有训练照片
+
+
+1、首先将所有的照片放在JPEGImages文件里面，将所有标注的XML文件放在Annotations的位置里面
+
+2、现在目的是要生成ImageSets/Main里面的各种训练、验证、测试的txt文档，此时运行xml_to_voc.py
+    
+    
