@@ -35,3 +35,8 @@
         --voc_label_list dataset/voc/label_list.txt \
         --voc_out_name voc_train.json     
 ```
+
+5、接下来一步用来将生成的voc_train.json标签数据与原始的图片组成COCO数据集
+
+  * annotations文件夹用于存放voc_train.json 文件
+  * train文件用来存放所有的图像照片
