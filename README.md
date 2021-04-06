@@ -1,0 +1,2 @@
+# vocToCocoByPaddle
+这个项目主要用来利用百度飞浆库将VOC格式的数据转换成COCO数据集的格式
