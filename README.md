@@ -25,4 +25,4 @@
 3、准备百度飞浆所需要的VOC数据集
 
   * 这一部分主要参考[数据集准备](https://github.com/PaddlePaddle/PaddleDetection/blob/release/0.4/docs/tutorials/PrepareDataSet.md "悬停显示")
-  * 注意
+  * 注意这一步一定要增加一个label_list.txt，里面主要包含了每个类别的名称
