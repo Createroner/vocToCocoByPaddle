@@ -5,19 +5,19 @@
 
 首先第一步数据集的准备，数据集的格式如下
 
-  1、Annotations 文件夹，主要用于存放图片文件标注的.xml文件
+  *1、Annotations 文件夹，主要用于存放图片文件标注的.xml文件
   
-  2、ImageSets/Main 里面主要包含了各种训练、验证、测试图片名称的txt文件
+  *2、ImageSets/Main 里面主要包含了各种训练、验证、测试图片名称的txt文件
   
-  3、JPEGImages存放了所有训练照片
+  *3、JPEGImages存放了所有训练照片
 
 
 1、首先将所有的照片放在JPEGImages文件里面，将所有标注的XML文件放在Annotations的位置里面
 
 2、现在目的是要生成ImageSets/Main里面的各种训练、验证、测试的txt文档，此时运行xml_to_voc.py
 
-  1、将xmlfilepath填写成Annotations的绝对路径
+  *1、将xmlfilepath填写成Annotations的绝对路径
   
-  2、txtsavepath填写成ImageSets/Main的绝对路径
+  *2、txtsavepath填写成ImageSets/Main的绝对路径
   
-  最终将生成ImageSets/Main里面的各种txt文件，至此已经完成了所有VOC格式数据的准备
+  *最终将生成ImageSets/Main里面的各种txt文件，至此已经完成了所有VOC格式数据的准备
