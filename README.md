@@ -26,3 +26,10 @@
 
   * 这一部分主要参考[数据集准备](https://github.com/PaddlePaddle/PaddleDetection/blob/release/0.4/docs/tutorials/PrepareDataSet.md "悬停显示")
   * 注意这一步一定要增加一个label_list.txt，里面主要包含了每个类别的名称
+
+4、利用paddle进行格式的转换
+  *python tools/x2coco.py --dataset_type voc \
+        --voc_anno_dir path/to/VOCdevkit/VOC2007/Annotations/ \
+        --voc_anno_list path/to/VOCdevkit/VOC2007/ImageSets/Main/trainval.txt \
+        --voc_label_list dataset/voc/label_list.txt \
+        --voc_out_name voc_train.json
