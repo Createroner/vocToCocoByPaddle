@@ -15,6 +15,9 @@
 1、首先将所有的照片放在JPEGImages文件里面，将所有标注的XML文件放在Annotations的位置里面
 
 2、现在目的是要生成ImageSets/Main里面的各种训练、验证、测试的txt文档，此时运行xml_to_voc.py
-    
-    
-public static void main(String[]args){} //python
+
+  1、将xmlfilepath填写成Annotations的绝对路径
+  
+  2、txtsavepath填写成ImageSets/Main的绝对路径
+  
+  最终将生成ImageSets/Main里面的各种txt文件，至此已经完成了所有VOC格式数据的准备
