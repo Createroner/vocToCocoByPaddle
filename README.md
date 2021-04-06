@@ -28,7 +28,7 @@
   * 注意这一步一定要增加一个label_list.txt，里面主要包含了每个类别的名称
 
 4、利用paddle进行格式的转换
-"""
+"""pyhton
   python tools/x2coco.py --dataset_type voc \
         --voc_anno_dir path/to/VOCdevkit/VOC2007/Annotations/ \
         --voc_anno_list path/to/VOCdevkit/VOC2007/ImageSets/Main/trainval.txt \
