@@ -21,3 +21,7 @@
   * 2、txtsavepath填写成ImageSets/Main的绝对路径
   
   * 最终将生成ImageSets/Main里面的各种txt文件，至此已经完成了所有VOC格式数据的准备
+
+3、准备百度飞浆所需要的VOC数据集
+
+  * 这一部分主要参考[数据集准备](https://github.com/PaddlePaddle/PaddleDetection/blob/release/0.4/docs/tutorials/PrepareDataSet.md "悬停显示")
