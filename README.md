@@ -17,3 +17,4 @@
 2、现在目的是要生成ImageSets/Main里面的各种训练、验证、测试的txt文档，此时运行xml_to_voc.py
     
     
+public static void main(String[]args){} //python
